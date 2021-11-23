@@ -1,0 +1,57 @@
+
+
+body{
+    background-color: hsl(202, 42%, 85%);
+}
+.container{
+    justify-content: center;
+    margin: 10px;
+    padding: 10%;
+}
+.name{
+    border-radius: 10px;
+    margin: 10%;
+    padding-bottom: 15px;
+    padding: 40px;
+    
+    color: rgb(223, 219, 219);
+    height: 40px;
+    background-color: hsl(209, 76%, 53%);
+}
+.gatitos{
+    display: flex;
+    width: 100%;
+}
+ .gatitos .gat1{
+     border-radius: 10px;
+     justify-content: center;
+     height: 350px;
+     width: 550px;
+     padding-left: 200px;
+     padding: 5%;
+     margin: 10px;
+    background: url("./images/gatito1.jpeg") no-repeat center/cover;
+ }
+ .gatitos .gat2{
+     border-radius: 10px;
+    justify-content: center;
+    height: 350px;
+    width: 450px;
+    padding-left: 200px;
+    padding: 5%;
+    margin: 10px;
+     background: url("./images/gatito2.jpeg") no-repeat center/cover;
+ }
+ .uni{
+    display: flex;
+ }
+ .uni .logo{
+    border-radius: 10px;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+    padding-left: 200px;
+    padding: 5%;
+    margin: 10px;
+     background: url("./images/usil.jpeg") no-repeat center/cover;
+ }
